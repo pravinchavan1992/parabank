@@ -71,10 +71,9 @@ parabank/
 ## Setup and Installation
 
 1. **Clone the repository:**
-
 ```bash
 git clone https://github.com/pravinchavan1992/parabank.git
-cd parabank```
+cd parabank
 
-
-
+2. **Install dependencies:**
+npm install
