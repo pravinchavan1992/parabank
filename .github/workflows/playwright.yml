@@ -5,7 +5,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-  workflow_dispatch:
+  workflow_dispatch: 
 
 jobs:
   test:
@@ -45,4 +45,6 @@ jobs:
 
       - name: Share Report Link
         if: ${{ always() }}
-        run: echo "Playwright Report: https://<OWNER>.github.io/<REPO>/" 
+        run: |
+          echo "✅ Playwright Report available at:"
+          echo "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/"
