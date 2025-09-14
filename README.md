@@ -55,3 +55,26 @@ parabank/
 ├── utils/ # Utility functions
 
 └── README.md # Project documentation
+
+
+
+---
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) v16+
+- [npm](https://www.npmjs.com/)
+- [Playwright](https://playwright.dev/)
+
+---
+
+## Setup and Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/pravinchavan1992/parabank.git
+cd parabank```
+
+
+
