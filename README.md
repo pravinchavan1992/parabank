@@ -80,3 +80,8 @@ cd parabank
 ```bash
 npm install
 ```
+
+3. **Install Playwright browsers:**
+```bash
+npx playwright install
+```
