@@ -1,20 +1,52 @@
 # ParaBank E2E Test Automation Framework
 
-This project is a comprehensive **end-to-end (E2E) test automation framework** for the ParaBank online banking application, built using **Playwright**. It covers both **UI and API test scenarios** to ensure the application's core functionalities are working correctly.
+![ParaBank Logo](https://github.com/parasoft/parabank/raw/master/src/main/webapp/images/logo.png)
+
+This repository contains an end-to-end (E2E) test automation framework for the ParaBank online banking application, developed using [Playwright](https://playwright.dev/). The framework validates core functionalities of ParaBank through both UI and API tests.
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Setup and Installation](#setup-and-installation)
+- [Running Tests](#running-tests)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Project Overview
+
+ParaBank is a demo online banking application provided by Parasoft. It simulates realistic banking workflows, making it ideal for practicing test automation.
+
+This framework automates critical workflows like:
+
+- User registration and login
+- Account creation and management
+- Fund transfers and transactions
+- API validations for backend services
+
+---
+
+## Features
+
+- **UI Automation**: Automates interactions like login, registration, and transactions.
+- **API Automation**: Validates backend endpoints and data integrity.
+- **Modular Test Design**: Easily maintainable and scalable test structure.
+- **Parallel Execution**: Supports running tests in parallel to reduce execution time.
+- **Detailed Reporting**: Generates comprehensive test reports.
 
 ---
 
 ## Project Structure
 
-The framework is organized into a **modular and maintainable structure**:
-
 parabank/
-├─ package.json # Manages project dependencies and test scripts
-├─ playwright.config.js # Main Playwright configuration (test directories, base URL, etc.)
-├─ tests/ # Test scripts
-│ ├─ parabank.spec.js # UI test scenarios (serial execution for dependent steps)
-│ └─ parabank.api.spec.js # API test scenarios (finding and validating transactions)
-├─ pages/ # Page Object Model (POM) files
-│ └─ parabank.page.js # Encapsulates locators and actions for ParaBank pages
-├─ data/ # Test data (not used in this version, good practice)
-└─ utils/ # Utility functions (not used in this version, good practice)
+├── package.json # Project dependencies and scripts
+├── playwright.config.js # Playwright configuration
+├── tests/ # Test scripts
+├── utils/ # Utility functions
+└── README.md # Project documentation
