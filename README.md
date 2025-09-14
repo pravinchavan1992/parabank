@@ -85,3 +85,12 @@ npm install
 ```bash
 npx playwright install
 ```
+## Running Tests
+### Run all tests:
+```bash
+npx playwright test
+```
+### Run specific tests:
+``` bash
+npx playwright test tests/ui/login.spec.ts
+```
