@@ -45,8 +45,13 @@ This framework automates critical workflows like:
 ## Project Structure
 
 parabank/
-├── package.json # Project dependencies and scripts
+
+├── package.json # Project dependencies and scripts           
+
 ├── playwright.config.js # Playwright configuration
+
 ├── tests/ # Test scripts
+
 ├── utils/ # Utility functions
+
 └── README.md # Project documentation
