@@ -1,7 +1,5 @@
 # ParaBank E2E Test Automation Framework
 
-![ParaBank Logo](https://github.com/parasoft/parabank/raw/master/src/main/webapp/images/logo.png)
-
 This repository contains an end-to-end (E2E) test automation framework for the ParaBank online banking application, developed using [Playwright](https://playwright.dev/). The framework validates core functionalities of ParaBank through both UI and API tests.
 
 ---
