@@ -42,9 +42,11 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./playwright-report
+          publish_branch: gh-pages
+          force_orphan: true
 
       - name: Share Report Link
         if: ${{ always() }}
         run: |
-          echo "✅ Playwright Report available at:"
+          echo "Playwright Report available at:"
           echo "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/"
