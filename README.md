@@ -74,6 +74,9 @@ parabank/
 ```bash
 git clone https://github.com/pravinchavan1992/parabank.git
 cd parabank
+```
 
 2. **Install dependencies:**
+```bash
 npm install
+```
