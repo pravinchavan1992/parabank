@@ -92,5 +92,5 @@ npx playwright test
 ```
 ### Run specific tests:
 ``` bash
-npx playwright test tests/ui/login.spec.ts
+npx playwright test tests/parabank.spec.ts
 ```
