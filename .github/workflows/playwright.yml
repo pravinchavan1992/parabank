@@ -35,18 +35,3 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
-
-      - name: Deploy Report to GitHub Pages
-        if: ${{ always() }}
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./playwright-report
-          publish_branch: gh-pages
-          force_orphan: true
-
-      - name: Share Report Link
-        if: ${{ always() }}
-        run: |
-          echo "Playwright Report available at:"
-          echo "https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/"
